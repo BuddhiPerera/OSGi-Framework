@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Hotelbevarageconsumor
+Bundle-SymbolicName: com.sliit.mtit.osgi.hotelbevarageconsumor
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.sliit.mtit.osgi.hotelbevarageconsumor.ActivatorBev
+Bundle-Vendor: SLIIT
+Export-Package: com.sliit.mtit.osgi.hotelbevarageconsumor
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: com.sliit.mtit.osgi.hotelbevarageconsumor
+Import-Package: org.osgi.framework;version="1.3.0",
+ package_com.sliit.mtit.osgi.hotelbeveragepulisher
+Bundle-ActivationPolicy: lazy

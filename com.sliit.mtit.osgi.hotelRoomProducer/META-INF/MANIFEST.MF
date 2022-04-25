@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: HotelRoomProducer
+Bundle-SymbolicName: com.sliit.mtit.osgi.hotelRoomProducer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.sliit.mtit.osgi.hotelroomproducer.Activator
+Bundle-Vendor: SLIIT
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: com.sliit.mtit.osgi.hotelRoomProducer
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: com.sliit.mtit.osgi.hotelroomproducer
